@@ -41,21 +41,9 @@ for hotels in all_hotels:
     scraped_info_list.append(hotel_dict)
         
     
-    #print(hotel_name , hotel_address , hotel_prise , hotel_rating , new_amenities_list)
- 
-    
- 
-    
 detaFrame = pandas.DataFrame(scraped_info_list)
 detaFrame.to_csv("Oyo.csv")
     
  
     
  
-    
- 
-    
- 
-    
- 
-    
